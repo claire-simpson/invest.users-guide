@@ -274,7 +274,7 @@ Data Needs
   - :investspec:`wind_energy wind_data_path.columns.k`
   - :investspec:`wind_energy wind_data_path.columns.ref`
 
-- :investspec:`wind_energy aoi_vector_path` The model will clip and project the outputs to the AOI. The AOI should cover a portion of the land polygon in order to calculate distances correctly.
+- :investspec:`wind_energy aoi_vector_path` The model will clip and project the outputs to the AOI. The AOI should cover a portion of the land polygon in order to calculate distances correctly. The AOI must be in a projected coordinate system, with linear units of meters.
 
 - :investspec:`wind_energy bathymetry_path` This should cover at least the entire span of the area of interest.
 
