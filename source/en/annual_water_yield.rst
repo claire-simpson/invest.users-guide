@@ -168,7 +168,7 @@ Finally, the model assumes that hydropower production and pricing remain constan
 Data Needs
 ==========
 
-.. note:: *All spatial inputs will be reprojected to match the projection of the input selected to define the Target Project, which must have a projected coordinate system* (with linear units of meters), *not* a geographic coordinate system (with units of degrees). By default, the Target Projection input is the Land Use/Land Cover raster.
+.. note:: *All spatial inputs will be reprojected to match the projection of the input selected to define the Target Projection, which must have a projected coordinate system* (with linear units of meters), *not* a geographic coordinate system (with units of degrees). By default, the Target Projection input is the Land Use/Land Cover raster.
 
 .. note:: Raster inputs may have different cell sizes, and they will be resampled to match the cell size of the selected Target Pixel Size input, which is, by default, the Land Use/Land Cover raster. Therefore, all model results will have the same cell size as the Target Pixel Size raster, though the projection units will match those of the Target Projection input.
 
