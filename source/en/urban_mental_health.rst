@@ -205,10 +205,14 @@ Data Needs
   - :investspec:`urban_mental_health lulc_attr_csv.columns.ndvi`
 
 
+- :investspec:`urban_mental_health target_projection_id`
+
+- :investspec:`urban_mental_health target_pixelsize_id`
+
 Model Outputs
 =============
 
-.. note:: If the 'NDVI' model option is used, outputs will be aligned to the Baseline NDVI raster grid, and the target pixel size will be derived from that raster. If the 'LULC' model option is used, the Baseline LULC raster will serve as the alignment raster and will define the target pixel size. In both cases, the AOI provides the target projection and extent.
+.. note:: Outputs will be aligned to whichever input is selected as the Target Pixel Size.
 
 Output Folder
 -------------
