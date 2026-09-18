@@ -168,9 +168,9 @@ More broadly, nature exposure represents only one component of the many factors 
 Data Needs
 ==========
 
-.. note:: *All spatial inputs will be reprojected to match the projection of the input selected to define the Target Projection, which must have a projected coordinate system* with linear units of meters, *not* a geographic coordinate system (with units of degrees). By default, the AOI is the Target Projection input.
+.. note:: All spatial inputs will be reprojected to match the projection of the input selected to define the Target Projection, which must have a projected coordinate system with linear units of meters, *not* a geographic coordinate system (with units of degrees). By default, the AOI is the Target Projection input.
    
-.. note:: If the 'NDVI' model option is used, the Baseline NDVI is the default Target Pixel Size input, and the target pixel size will be derived from that raster. If the 'LULC' model option is used, the Baseline LULC raster is the default Target Pixel Size input. Note that the projection units will match those of the Target Projection input
+.. note:: Input rasters will be resampled to match the resolution of the Target Pixel Size input. If the 'NDVI' model option is used, the Baseline NDVI is the default Target Pixel Size input. If the 'LULC' model option is used, the Baseline LULC raster is the default Target Pixel Size input. Note that the projection units will match those of the Target Projection input
 
 - :investspec:`urban_mental_health workspace_dir`
 
